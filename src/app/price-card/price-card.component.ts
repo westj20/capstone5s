@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PriceCardComponent implements OnInit {
 
+  Price: any = {
+    "Plan":"Basic",
+    "Price":"$199",
+    "PlanOp1":"1 User",
+    "PlanOp2":"Online Dash Board",
+    "PlanOp3":"Basic Audits",
+    "PlanOp4":"Basic Zone Database",
+    "PlanOp5":"Online Admin Training",
+    "PlanOp6":"Learning Tools"
+
+  }
   constructor() { }
 
   ngOnInit() {

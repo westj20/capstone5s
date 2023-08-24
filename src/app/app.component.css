@@ -1,4 +1,4 @@
-.gradient-background {
+.body {
   background: linear-gradient(to bottom, #be77f5, #a046ee, #6613b0, #777579);
   /* Add more colors as needed for smooth transitions */
   min-height: 100vh; /* Adjust the height as needed */
@@ -8,24 +8,3 @@
   justify-content: top; /* Center content horizontally and vertically */
 }
 
-.app-price-card {
-  margin-top: 300px; /* Move the card down by 100px */
-  background: rgba(0, 0, 0, 0.5); /* Set a background color if needed */
-  flex: auto;
-  
-}
-
-.price-cards-container {
-  display: flex;
-  justify-content: center; /* Center content horizontally */
-  gap: 30px; /* Add a gap of 20px between the cards */
-  margin-top: 100px; /* Move the cards down by 100px */
-
-}
-
-@media screen and (max-width: 1200px) {
-  .price-cards-container {
-    flex-direction: column; /* Stack the cards vertically on smaller screens */
-    align-items: center;
-  }
-}

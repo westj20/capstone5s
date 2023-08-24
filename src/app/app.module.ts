@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PriceCardComponent } from './price-card/price-card.component';
 import { NavBarLandingComponent } from './nav-bar-landing/nav-bar-landing.component';
+import { PricePackageComponent } from './price-package/price-package.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
       PriceCardComponent,
-      NavBarLandingComponent
+      NavBarLandingComponent,
+      PricePackageComponent
    ],
   imports: [
     BrowserModule,

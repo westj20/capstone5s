@@ -1,0 +1,5 @@
+.gradient-background {
+    background: linear-gradient(to bottom, #be77f5, #a046ee , #6613b0, #777579);
+    /* Add more colors as needed for smooth transitions */
+    min-height: 100vh; /* Adjust the height as needed */
+  }

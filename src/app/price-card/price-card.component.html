@@ -1,9 +1,27 @@
 
-  <div class="card">
-    <div class="card-body">
-<h3>{{price.Plan}}</h3>
-<h3>{{price.Price}}</h3>
-<h3>{{price.PlanOp1}}</h3>
-<h3>{{price.PlanOp2}}</h3>
-</div>
+
+<div class="card">
+  <div class="card-body">
+      <h3>{{ price.Plan }}</h3>
+      <ul>
+          <li *ngIf="price.PlanOp1">{{ price.PlanOp1 }}</li>
+          <li *ngIf="price.PlanOp2">{{ price.PlanOp2 }}</li>
+          <li *ngIf="price.PlanOp3">{{ price.PlanOp3 }}</li>
+          <li *ngIf="price.PlanOp4">{{ price.PlanOp4 }}</li>
+          <li *ngIf="price.PlanOp5">{{ price.PlanOp5 }}</li>
+          <li *ngIf="price.PlanOp6">{{ price.PlanOp6 }}</li>
+          <li *ngIf="price.PlanOp7">{{ price.PlanOp7 }}</li>
+          <li *ngIf="price.PlanOp8">{{ price.PlanOp8 }}</li>
+          <li *ngIf="price.PlanOp9">{{ price.PlanOp9 }}</li>
+          <li *ngIf="price.PlanOp10">{{ price.PlanOp10 }}</li>
+      </ul>
+
+      
+      <div class="button">
+        
+        <button class="btn btn-primary">{{ price.Price }}</button>
+      </div>
+      
+      
+  </div>
 </div>

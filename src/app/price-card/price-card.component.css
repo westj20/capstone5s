@@ -1,0 +1,34 @@
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.btn-center {
+    align-self: center;
+    transition: transform 0.3s ease-in-out;
+        
+}
+
+.btn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn:hover {
+    animation: pulse 1s infinite;
+}
+.card{
+    background-color: blanchedalmond;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
